@@ -1,0 +1,12 @@
+body {
+    height: 100vh;
+    width: 100;
+    margin: 0 auto;
+    padding: 10px 100px 10px;
+    background-image: linear-gradient(rgb(46, 195, 253), white);
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat-y;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+

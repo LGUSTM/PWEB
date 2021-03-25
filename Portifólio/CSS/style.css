@@ -1,0 +1,169 @@
+/* Table Of Content 
+
+  1. RESET
+  2. HEADER
+  3. MENU
+  4. BANNER
+
+*/
+
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: black(97, 96, 96);
+    font-weight: 600;
+}
+body{
+    background-color: rgb(134, 134, 134);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+
+
+/* HEADER */
+.loading-center {
+    height: auto;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    width: 120px;
+}
+
+.menu-header{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.menu-header h1{
+    padding-left: 100px;
+    padding-top: 15px;
+    font-size: 35px;
+    font-weight: 900;
+    color: black;
+}
+
+
+.logo{
+    width: 68px;
+    height: 68px;
+    float: left;
+    background: url(../Imagens/Icon.png) center center/56px no-repeat;
+}
+
+.btn-menu{
+    width: 59px;
+    height: 59px;
+    float: right;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(222, 222, 222);
+    background-color: black;
+    border-radius: 5px;
+}
+
+.btn-menu:hover{
+    background-color: rgb(35, 87, 199);
+}
+
+/* MENU */
+.menu{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(222, 222, 222);
+    top: 0;
+    left: 0;
+}
+
+.btn-menu{
+    cursor: pointer;
+}
+
+.btn-close{
+    font-size: 2.25em;
+    color: black;
+    float: right;
+    cursor: pointer;
+    margin-right: 5%;
+}
+
+.btn-close:hover{
+    color: rgb(35, 87, 199);
+}
+
+.menu ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li{
+    padding: 1.5%;
+}
+
+.menu li a{
+    font-size: 2em;
+    color: black;
+    padding: 1.5%;
+}
+
+.menu li a:hover{
+    border: 2px solid rgb(35, 87, 199);
+}
+
+/* BANNER */
+.banner{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+    background: url(../Imagens/teste6.png);
+}
+
+.banner h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(222, 222, 222);
+    text-align: center;
+}
+
+.banner p{
+    font-size: 20px;
+    font-style: inherit;
+    text-align: center;
+    color: rgb(222, 222, 222);
+}
+
+.btn-mywork{
+    color: rgb(222, 222, 222);
+    background: black;
+    float: center;
+    padding:10px 16px;
+    font-size:18px;
+    cursor: pointer;
+    line-height:1.3333333;
+    border-radius:6px
+}
+
+.btn-mywork:hover{
+    background-color: rgb(35, 87, 199);
+}

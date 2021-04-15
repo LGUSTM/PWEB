@@ -4,7 +4,7 @@
   2. HEADER
   3. MENU
   4. BANNER
-
+  5. ABOUT
 */
 
 
@@ -69,6 +69,7 @@ img{
     background-color: rgb(5, 67, 201);
 }
 
+
 /* MENU */
 .menu{
     display: none;
@@ -78,6 +79,7 @@ img{
     background-color: rgb(47, 47, 47);
     top: 0;
     left: 0;
+    opacity: 0.9;
 }
 
 .btn-menu{
@@ -85,11 +87,11 @@ img{
 }
 
 .btn-close{
-    font-size: 2.25em;
+    font-size: 2.5em;
     color: rgb(0, 109, 240);
     float: right;
     cursor: pointer;
-    margin-right: 5%;
+    margin: 2% 3% 0 0;
 }
 
 .btn-close:hover{
@@ -116,6 +118,7 @@ img{
     border: 2px solid rgb(0, 109, 240);
 }
 
+
 /* BANNER */
 .banner{
     width: 100%;
@@ -126,14 +129,14 @@ img{
 }
 
 .banner h2{
-    margin-top: 10px;
+    margin-top: 2%;
     font-size: 35px;
     color: rgb(222, 222, 222);
     text-align: center;
 }
 
 .banner p{
-    margin-top: 12px;
+    margin-top: 2%;
     font-size: 20px;
     font-style: inherit;
     text-align: center;
@@ -157,5 +160,23 @@ img{
 }
 
 .banner-image{
-    margin-top: 30px;
+    margin-top: 2%;
+}
+
+
+/* ABOUT ME*/
+
+.about h2{
+    margin-top: 2%;
+    font-size: 35px;
+    color: rgb(222, 222, 222);
+    text-align: center;
+}
+
+.about p{
+    margin: 1% 10%;
+    font-size: 20px;
+    font-style: inherit;
+    text-align: center;
+    color: rgb(222, 222, 222);
 }

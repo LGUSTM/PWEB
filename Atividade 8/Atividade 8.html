@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Luiz Gustavo Mesquita de Oliveira">
+    <title>Atividade 8</title>
+    <script>
+        //Primeira forma
+        var Aluno1 = new Object();
+        Aluno1.ra = "0030481913045";
+        Aluno1.nome = "Luiz Gustavo Mesquita de Oliveira";
+
+        //Segunda forma
+        function Aluno1(ra, name) {
+			this.ra = ra;
+			this.name = name;
+		};
+        var Aluno1 = new Aluno1("0030481913045", "Luiz Gustavo Mesquita de Oliveira");
+
+        //Terceira forma
+        function Aluno1() {
+			var nome;
+			var ra;
+			this.setNome = function (vNome) {
+				this.nome = vNome;
+			}
+
+			this.setRa = function (vRa) {
+				this.ra = vRa;
+			}
+		}
+
+		var objAluno = new Aluno();
+
+		objAluno.setNome("0030481913045");
+		objAluno.setRa("0030481913045");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -117,7 +117,6 @@ section.main{
 
 .introduction{
     width: 100%;
-    margin: 20px 0;
     text-align: center;
 }
 
@@ -232,13 +231,13 @@ section.my-works{
 
 .my-work-single img{
     filter: grayscale(100%);
-    transform:scale(1,1);
+    transform: scale(1,1);
     transition: 1s;
 }
 
 .my-work-single img:hover{
-    transform:scale(1.1,1.1);
-    filter:grayscale(0);
+    transform: scale(1.1,1.1);
+    filter: grayscale(0);
 }
 
 /*FOOTER*/

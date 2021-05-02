@@ -8,57 +8,106 @@
     <meta name="keywords" content="Portifólio, Analista de Sistemas, Desenvolvedor de Sistemas, Python, Java, C, C#, HTML, CSS, Javascript, Luiz Gustavo Mesquita de Oliveira">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Luiz Gustavo Mesquita de Oliveira">
-    <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500&display=swap">
-    <link rel="icon" href="Imagens/Icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="Images/Icon.png">
     <title>LGUSTM</title>
 </head>
 <body>
 
-    <header class="menu-header">
-        <a href="index.html"><h1 class="logo"></h1></a>
-        <button class="btn-menu"><i class="fas fa-bars fa-lg" style="color:  rgb(31, 31, 31);"></i></button>
-        <h1>LGUSTM</h1>
-        <nav class="menu">
-            <a class="btn-close"><i class="fa fa-times"></i></a>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#">SKILLS</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h2>LGUSTM</h2>
+            </div><!--LOGO-->
+            <nav class="menu">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">SKILLS</a>
+                <a href="#">PROJECTS</a>
+                <a class="btn-contact" href="#">CONTACT</a>
+            </nav><!--MENU-->
+            <nav class="menu-mobile">
+                <i class="fas fa-bars menu-mobile-icon"></i>
+                <div class="menu-items">
+                    <a href="">HOME</a>
+                    <a href="">ABOUT</a>
+                    <a href="">SKILLS</a>
+                    <a href="">PROJECTS</a>
+                </div>
+            </nav>
+        </div><!--CENTER-->
+    </header><!--HEADER-->
 
-    <div class="banner">
-        <div class="text">
-            <h2>Name = str("Luiz Gustavo Mesquita de Oliveira")</h2>
-            <p>Hello World! I like to work with Programming because I feel free to make mistakes, get confused, erase everything and start over from scratch.</p><br><br>
-        </div>
-        <div class="buttons">
-            <a class="btn-mywork">My Work</a>
-        </div>
-        <div class="banner-image"><img src="Imagens/Banner.png" alt="Programming languages"></div>
-    </div>
+    <section class="main">
+        <div class="center">
+            <div class="introduction">
+                <h2>Name = str("Luiz Gustavo Mesquita de Oliveira")</h2>
+                <p>Hello World! I like to work with Programming because I feel free to make mistakes, get confused, erase everything and start over from scratch.</p>
+                <button>My Work</button>
+            </div><!--introduction-->
 
-    
-
-    <main class="services">
-        <section>
             <div class="about">
-                <h2>ABOUT ME</h2>
-                <p>I have always been fascinated by technology and since I remember I was curious to know how the things worked and disassembled every some old devices
-                    or PCs that i find even if that i have no idea about it. When I was in highschool I made a electronics course, where I have my first contact with some
-                    kind of stuff of IT and was totally diferent but I loved, and this makes me want to now more about it. So I start to do a Analysis and Development of 
-                    System at FATEC SOROCABA on february 2019 and from that I started my career as an IT professional.</p>
-            </div>
-        </section>
-    </main>
-    
-    <footer>
+                <h2>About Me</h2>
+                <p>I have always been fascinated by technology and since I can remember, I have always been curious to know how things work and when I was a child I took apart all the old devices or PCs that I found, even if I have no idea. Since then I knew I wanted to work with IT and I decided to try to do Systems Analysis and Development and I succeeded at FATEC SOROCABA in February 2019. From there I started my career as an IT professional.</p>
+            </div><!--About-->
 
+            <div class="my-skills">
+                <h2>My Skills</h2>
+                <div class="skills">
+                    <div class="skill-single">
+                        <i class="fas fa-code"></i>
+                        <h2>Programming Languages</h2>
+                        <p>I have knowledge about C, C#, Java, Python and Javascript that I am still improving.</p>
+                    </div>
+                    <div class="skill-single">
+                        <i class="fab fa-css3"></i>
+                        <h2>HTML and CSS</h2>
+                        <p>I have knowledge about website building, semantic html5, CSS3, design concepts and more.</p>
+                    </div>
+                    <div class="skill-single">
+                        <i class="fas fa-database"></i>
+                        <h2>Database</h2>
+                        <p>I have a good knowledge of SQL, data modeling and procedural language.</p>
+                    </div>
+                    <div class="skill-single">
+                        <i class="fas fa-memory"></i>
+                        <h2>Hardware</h2>
+                        <p>I have knowledge of servers, network, architecture, installation and maintenance of computers and operating systems.</p>
+                    </div>         
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-works">
+        <h2>My Works</h2>   
+        <div class="center">
+            <div class="my-work-single">
+                <a href="https://github.com/LGUSTM/URI" target="_blank" rel="noopener noreferrer"><img src="Images/MyWork1.png"/></a>
+            </div>
+            <div class="my-work-single">
+                <a href="https://github.com/LGUSTM/JAVA-PROJECT" target="_blank" rel="noopener noreferrer"><img src="Images/MyWork2.png"/></a>
+            </div>
+            <div class="my-work-single">
+                <a href="https://github.com/LGUSTM/ASTEROIDS-PYTHON-GAME" target="_blank" rel="noopener noreferrer"><img src="Images/MyWork3.png"/></a>
+            </div>
+            <div class="my-work-single">
+                <a href="https://github.com/LGUSTM/CSHARP" target="_blank" rel="noopener noreferrer"><img src="Images/MyWork4.png" /></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Get In Touch</h2>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/Gustavo.Mesquita.013/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square" style="color: #D9D9D9;"></i></a>
+            <a href="https://www.instagram.com/gustavomesquita.exe/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram-square" style="color: #D9D9D9;"></i></a>
+            <a href="https://github.com/LGUSTM?tab=repositories" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square" style="color: #D9D9D9;"></i></a>
+            <a href="mailto:gustavo.oliveira2000@hotmail.com"><i class="fas fa-envelope-square" style="color: #D9D9D9;"></i></a>
+        </div>
+        <p class="copyright">Copyright © LGUSTM 2021. Todos os direitos reservados.</p>
     </footer>
 
     <script src="https://kit.fontawesome.com/76fe8a2a6f.js" crossorigin="anonymous"></script>

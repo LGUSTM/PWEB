@@ -1,0 +1,183 @@
+/* Table Of Content 
+
+  1. RESET
+  2. HEADER
+  3. MENU
+  4. BANNER
+  5. ABOUT
+*/
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    color: black(97, 96, 96);
+}
+body{
+    background-color: rgb(47, 47, 47);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+
+
+/* HEADER */
+.menu-header{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    background-color: rgb(31, 31, 31);
+}
+
+.menu-header h1{
+    padding-left: 100px;
+    padding-top: 15px;
+    font-size: 35px;
+    color: rgb(222, 222, 222);
+}
+
+.logo{
+    width: 68px;
+    height: 68px;
+    float: left;
+    background: url(../Images/Icon.png) center center/56px no-repeat;
+}
+
+.btn-menu{
+    width: 59px;
+    height: 59px;
+    float: right;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(0, 109, 240);
+    border-radius: 5px;
+}
+
+.btn-menu:hover{
+    background-color: rgb(5, 67, 201);
+}
+
+
+/* MENU */
+.menu{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(47, 47, 47);
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+.btn-menu{
+    cursor: pointer;
+}
+
+.btn-close{
+    font-size: 2.5em;
+    color: rgb(0, 109, 240);
+    float: right;
+    cursor: pointer;
+    margin: 2% 3% 0 0;
+}
+
+.btn-close:hover{
+    color: rgb(240, 52, 52);
+}
+
+.menu ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li{
+    padding: 1.5%;
+}
+
+.menu li a{
+    font-size: 2em;
+    color: rgb(222, 222, 222);
+    padding: 1.5%;
+}
+
+.menu li a:hover{
+    border: 2px solid rgb(0, 109, 240);
+}
+
+
+/* BANNER */
+.banner{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 3% 4%;
+    background: url(../Imagens/);
+}
+
+.banner h2{
+    margin-top: 2%;
+    font-size: 35px;
+    color: rgb(222, 222, 222);
+    text-align: center;
+}
+
+.banner p{
+    margin-top: 2%;
+    font-size: 20px;
+    font-style: inherit;
+    text-align: center;
+    color: rgb(222, 222, 222);
+}
+
+.btn-mywork{
+    color: rgb(47, 47, 47);
+    background: rgb(0, 109, 240);
+    font-weight: bolder;
+    float: center;
+    padding: 10px 16px;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 1.3333333;
+    border-radius:6px
+}
+
+.btn-mywork:hover{
+    background-color: rgb(5, 67, 201);
+}
+
+.banner-image{
+    margin-top: 2%;
+}
+
+
+/* ABOUT ME*/
+
+.about h2{
+    margin-top: 2%;
+    font-size: 35px;
+    color: rgb(222, 222, 222);
+    text-align: center;
+}
+
+.about p{
+    margin: 1% 10%;
+    font-size: 20px;
+    font-style: inherit;
+    text-align: center;
+    color: rgb(222, 222, 222);
+}

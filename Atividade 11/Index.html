@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luiz Gustavo Mesquita de Oliveira">
+    <link rel="stylesheet" href="CSS/styles.CSS">
+    <script src="JavaScript/script.js"></script>
+    <title>PWEB - Atividade 11</title>
+</head>
+<body>
+    <h1>Conversor de fonte</h1>
+    <form action="Conversor de fonte" method="POST" name="form1" id="form1" onsubmit="return validarDados();">
+        <div id="principal" width=400 heigth=400 align=center>
+            Nome Completo:
+            <input name="textinput" type="text" id="textinput" size="82" maxlength="200">
+            <br>
+            <input type="checkbox" id="uppercase" name="uppercase" onclick="upper()">
+            <label for = "lbluppercase"> Letra Maiúscula</label>
+            <br>
+            <input type="checkbox" id="lowcase" name="lowcase" onclick="lower()">
+            <label for = "lbllowcase"> Letra Minúscula</label>            
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.btnSubmit{
+    font-size: 25px;
+    color: gray;
+    background-color: black;
+    border-color: black;
+    border-radius: 0.25rem;
+}
